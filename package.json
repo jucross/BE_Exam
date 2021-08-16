@@ -1,0 +1,21 @@
+{
+  "name": "rh-backend",
+  "version": "1.0.0",
+  "description": "Backend para examen de sofex",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Job Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.21",
+    "moment": "^2.29.1",
+    "objection": "^2.2.15",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
